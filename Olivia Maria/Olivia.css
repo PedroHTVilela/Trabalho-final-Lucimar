@@ -1,0 +1,112 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Font cabecalho';
+    src: url(Fontes/coolvetica\ rg.otf);
+}
+
+/* Corpo do site */
+body {
+    background-color: whitesmoke;
+    color: #000000;
+    font-family: 'Font cabecalho';
+}
+
+/* Fromatacao do menu */
+
+nav#menu {
+    display: block;
+    height: 50px;
+}
+/* logo */
+nav#menu img{
+    position: absolute;
+    top: -70px;
+    left: 100px;
+    width: 200px;
+    height: 100px;
+}
+
+/* Formatacao dos itens */
+/* Formatacao dos itens de navegacao */
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;   
+    position: absolute;
+    top: -20px;
+    left: 650px;
+}
+
+nav#menu li{
+    display: inline-block;
+    margin: 10px;
+}
+
+nav#menu a{
+    color: black;
+    text-decoration: none;
+}
+
+/* Formatacao da barra de pesquisa */
+nav#menu tr{
+    position: absolute;
+    margin: 15px 620px;
+}
+
+nav#menu td{
+    top: 50px;
+    left: 300px;
+}
+
+/* formatacao dos itens ao lado da bara de pesquisa */
+
+figure#login ul{
+    list-style: none;
+    text-transform: uppercase;   
+    position: absolute;
+    top: 0px;
+    left: 1150px;
+
+
+}
+
+/* Formatacao da segunda barra */
+
+nav#baixo {
+    background-color: black;
+    display: block;
+    height: 70px;
+
+}
+
+nav#baixo ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    top: 70px;
+    left: 100px;
+
+}
+
+nav#baixo li{
+    display: inline-block;
+    background-color: black;
+    padding: 4px;
+    margin: 10px;
+    color: aliceblue;
+}
+
+nav#baixo li:hover{
+
+    background-color: aliceblue;
+}
+
+nav#baixo a{
+    color: aliceblue;
+    text-decoration: none;
+}
+nav#baixo a:hover{
+    color: black;
+}
+
+/* Formatacao do corpo do site */

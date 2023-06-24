@@ -1,0 +1,136 @@
+@font-face {
+    font-family: Fonte Site;
+    src: url(Fontes/Coolvetica/coolvetica\ rg.otf);
+}
+
+@font-face {
+    font-family: Fonte Título;
+    src: url(Fontes/dunkin/Dunkin\ Sans.otf);
+}
+
+*{
+    color: black;
+    font-family: Fonte Site;
+    font-size: 18px;
+    margin:0 auto;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+#menu{
+    height: 100%;
+    width: 100%;
+    border-top: solid #f18797;
+    background-image: url(imagens/Fundo.png);
+}
+
+#logo {
+    height: 400px;
+    margin: -20% -10%;
+}
+div#nav{
+    width: 100%;
+    height: 100%;
+}
+
+#menu ul{
+    display: block;
+    list-style: none;
+    padding: 80px;
+    background-color: transparent;
+    height: 110px;
+    width: 100%;
+    height: 100%;
+}
+
+#menu ul li{
+    display: inline;
+    margin: 1%;
+    width: 100%;
+    height: 100%;
+    border-bottom: solid;
+    text-shadow: 0.2em 0.1em 0.2em rgb(164, 161, 161);
+}
+
+#menu ul li a{
+    padding: 1%;
+    display: inline-block;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+#menu ul li a:hover{
+    border-radius: 13px;
+    color: white;
+    transition: 0.2s;
+    text-transform: uppercase;
+    text-shadow: 0.2em 0.1em 0.2em rgb(0, 0, 0);
+}
+
+
+/* barra de pesquisa */
+table#barra {
+    display: block;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+td#busca {
+    position: absolute;
+    background-color: transparent;
+    border-bottom: 1px solid;
+    border-radius:15px;
+    width:300px;
+    margin:-7.5% 75%;
+    
+}
+
+#txtBusca {
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:13px;
+    border:none;
+    height: 20px;
+    width:300px;
+    outline: none;
+    
+}
+
+/* Contepudo do site */
+
+#conteudo{
+    padding-top: 2%;
+    border-top: solid #f18797;
+}
+
+#info{
+    align-items: center;
+}
+
+#info img{
+    width: 100%;
+    height: 100%;
+    padding: 4%;
+}
+
+h2{
+
+    text-transform: uppercase;
+    font-family: Fonte Título;
+    color: rgb(255, 198, 25) ;
+    font-size: 30px;
+
+}
+
+#glitters {
+    width: 17%;
+    height: 17%;
+    padding: 2%;
+    margin: 3%;
+    background-color: #f18797;
+    border-radius: 15px;
+}
